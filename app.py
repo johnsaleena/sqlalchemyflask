@@ -52,3 +52,4 @@ def edit(cat_id):
     cat_to_update.price = new_price
     db.session.commit()
     return json.dumps("Edited"), 200
+
