@@ -26,3 +26,5 @@ def edit_instance(model, id, **kwargs):
 
 def commit_changes():
     db.session.commit()
+
+    
